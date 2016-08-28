@@ -71,6 +71,10 @@ footer {
     border-top: 1px solid grey;
 }
 
+.footer-content {
+    padding: 2% 0% 2% 10%;
+}
+
 footer p{
     display: inline;
     line-height: 40px;
