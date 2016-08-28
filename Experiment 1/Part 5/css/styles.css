@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Avenir Next Condensed", sans-serif;
+}
+
+body {
+    background-color: #4D515D;
+}
+
+.wrapper {
+    box-shadow: 0px 0px 40px 5px #333333;
+    width: 80%;
+    height: 80%;
+    margin: 10% auto;
+    background-color: white;
+    border: 1px solid transparrent;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.picture {
+    float: right;
+    width: 35%;
+}
+
+.content {
+    padding: 10% 0% 0% 7%;
+    width: 45%;
+    border: 1px solid yellow;
+}
+
+.buttons {
+    /*margin: 80px 0;*/
+}
+
+.button {
+    width: 100%;
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+}
+
+.google-button {
+    background: url(../img/g+.png) no-repeat 10px 15px;
+}
+
+.facebook-button {
+    background: url(../img/fb.png) no-repeat 10px 15px;
+}
+
+.twitter-button {
+    background: url(../img/twitter.png) no-repeat 10px 15px;
+}
+
+.button p {
+    padding-left: 35%;
+    line-height: 3em;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    box-shadow: 0px 0px 25px -4px #888888;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 65%;
+    border-top: 1px solid grey;
+}
+
+footer p{
+    display: inline;
+    line-height: 40px;
+}
+
+footer a {
+    padding: 0 85px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: green;
+}

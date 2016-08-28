@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+    background-color: grey;
+}
+
+.wrapper {
+    min-width: 750px;
+    min-height: 1320px;
+    background: url("https://c1.staticflickr.com/5/4088/5059049206_873701ce79_b.jpg")
+    top left no-repeat;
+    /*background-size: contain;*/
+    position: relative;
+}
+
+.author {
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+}
+
+.title {
+    text-transform: uppercase;
+    font-size: 52px;
+    color: white;
+}
+
+footer {
+    height: 115px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
