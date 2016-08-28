@@ -5,33 +5,32 @@
 }
 
 body {
-    background-color: grey;
+    background-color: #DAE2EB;
 }
 
-.wrapper {
-    min-width: 750px;
-    min-height: 1320px;
-    background: url("https://c1.staticflickr.com/5/4088/5059049206_873701ce79_b.jpg")
-    top left no-repeat;
-    /*background-size: contain;*/
+.block-1, .block-2, .block-3 {
+    margin: 10% 3%;
+    width: 450px;
+    height: 800px;
+    background-color: grey;
+    display: inline-block;
     position: relative;
 }
 
-.author {
+/*.author {
     text-transform: uppercase;
     font-size: 16px;
     color: white;
-}
+}*/
 
-.title {
+/*.title {
     text-transform: uppercase;
     font-size: 52px;
     color: white;
-}
+}*/
 
 footer {
-    height: 115px;
-    background-color: blue;
+    background-color: white;
     position: absolute;
     bottom: 0;
     left: 0;
