@@ -18,10 +18,10 @@ body {
 }
 
 .screen {
+    border: 1px solid yellow;
     width: 260px;
     height: 440px;
     margin: 30px 20px;
-    border: 1px solid yellow;
     position: absolute;
 }
 
@@ -36,4 +36,40 @@ body {
 
 .btn-search {
     float: right;
+}
+
+.inner-content {
+    border: 1px solid blue;
+    width: 80%;
+    height: 90%;
+    margin: auto;
+    margin-top: 7%;
+    position: relative;
+}
+
+.inner-content img {
+    margin: 0px auto;
+    height: 90px;
+    width: 90px;
+    border: 6px solid #47484F;
+    border-radius: 50%;
+    display: block;
+}
+
+.restaurant-name {
+    margin: 5px auto 5px auto;
+}
+
+.btn-confirm {
+    color: white;
+    background-color: #47484F;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.btn-confirm p {
+    padding: 0 auto;
+    line-height: 45px;
+    text-align: center;
 }
