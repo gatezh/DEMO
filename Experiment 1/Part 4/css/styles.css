@@ -18,7 +18,7 @@ body {
 }
 
 .screen {
-    border: 1px solid yellow;
+    /*border: 1px solid yellow;*/
     width: 260px;
     height: 440px;
     margin: 30px 20px;
@@ -26,7 +26,7 @@ body {
 }
 
 .nav-bar {
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     height: 27px;
 }
 
@@ -39,7 +39,7 @@ body {
 }
 
 .inner-content {
-    border: 1px solid blue;
+    /*border: 1px solid blue;*/
     width: 80%;
     height: 90%;
     margin: auto;
@@ -48,6 +48,7 @@ body {
 }
 
 .inner-content img {
+    box-shadow: 0px 12px 20px -5px #999999;
     margin: 0px auto;
     height: 90px;
     width: 90px;
@@ -57,10 +58,38 @@ body {
 }
 
 .restaurant-name {
-    margin: 5px auto 5px auto;
+    display: block;
+    margin: 20px 0 30px 0;
+    text-align: center;
+}
+
+.table-parameters {
+    text-align: center;
+}
+
+.table-for {
+    font-size: 0.9em;
+}
+
+.toggle-table {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.choose-date {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.date-display {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.1em;
 }
 
 .btn-confirm {
+    box-shadow: 0px 12px 30px -5px #999999;
     color: white;
     background-color: #47484F;
     width: 100%;
