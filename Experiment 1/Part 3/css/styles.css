@@ -6,17 +6,17 @@
 
 body {
     width: 1200px;
-    height: 800px;
+    height: 720px;
     background-image: url(../img/background.jpg);
     background-repeat: no-repeat;
 }
 
 .wrapper {
-    overflow: hidden;
+    /*overflow: hidden;*/
 }
 
 .frame {
-    box-shadow: 0 0 0 2000px rgba(0,0,0,.7);
+    box-shadow: 0 0 0 2000px rgba(0,0,0,.5);
     width: 800px;
     height: 600px;
     margin: 0px auto;
@@ -40,4 +40,21 @@ body {
 
 .content {
     margin: 40px 40px 0 30px;
+}
+
+.content-title {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.content-statistic {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 0.9em;
+    color: #24BCE9;
+}
+
+.content-body {
+    color: grey;
+    line-height: 1.5em;
 }
